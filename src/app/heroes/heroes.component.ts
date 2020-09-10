@@ -13,6 +13,15 @@ export class HeroesComponent implements OnInit {
     name: 'Windstorm',
   };
   heroes = HEROES;
+  selectedHero: Hero;
+
+  //
+  // EVENT HANDLER
+  // ------------------------------
+
+  onSelect(hero: Hero): void {
+    this.selectedHero = hero;
+  }
 
   constructor() {}
 
