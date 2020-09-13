@@ -12,7 +12,9 @@ export class DashboardComponent implements OnInit {
 
   constructor(private heroService: HeroService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.getHeroes();
+  }
 
   //
   // SERVICE INTERACTIONS
