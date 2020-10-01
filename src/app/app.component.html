@@ -1,7 +1,14 @@
-<h1>{{ title }}</h1>
-<nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+<div class="site">
+  <header class="site-hd">
+    <h1>{{ title }}</h1>
+    <nav>
+      <a routerLink="/dashboard">Dashboard</a>
+      <a routerLink="/heroes">Heroes</a>
+    </nav>
+  </header>
+  <main class="site-bd">
+    <router-outlet></router-outlet>
+    <app-messages></app-messages>
+  </main>
+  <footer class="site-ft">Angular Sample Application</footer>
+</div>

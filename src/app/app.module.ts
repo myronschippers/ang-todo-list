@@ -12,6 +12,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { TodoPageComponent } from './todo-page/todo-page.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
+    TodoPageComponent,
   ],
   imports: [
     // register/opt-in with different Angular modules
