@@ -1,11 +1,15 @@
 <div class="site">
   <header class="site-hd">
     <div class="appBar">
-      <h1>{{ title }}</h1>
-      <nav>
-        <a routerLink="/dashboard">Dashboard</a>
-        <a routerLink="/heroes">Heroes</a>
-      </nav>
+      <div class="appBar-identity">
+        <h1 routerLink="/">{{ title }}</h1>
+      </div>
+      <div class="appBar-tools">
+        <nav>
+          <a routerLink="/dashboard">Dashboard</a>
+          <a routerLink="/heroes">Heroes</a>
+        </nav>
+      </div>
     </div>
   </header>
   <main class="site-bd">

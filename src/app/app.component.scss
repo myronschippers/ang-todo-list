@@ -65,8 +65,17 @@ nav a.active {
 }
 
 .appBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
   border-bottom: 1px solid #15181b;
   background-color: #24292e;
   color: #efefef;
+}
+
+.appBar-identity {
+}
+
+.appBar-tools {
 }
