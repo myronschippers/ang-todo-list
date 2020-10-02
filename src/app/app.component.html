@@ -1,14 +1,18 @@
 <div class="site">
   <header class="site-hd">
-    <h1>{{ title }}</h1>
-    <nav>
-      <a routerLink="/dashboard">Dashboard</a>
-      <a routerLink="/heroes">Heroes</a>
-    </nav>
+    <div class="appBar">
+      <h1>{{ title }}</h1>
+      <nav>
+        <a routerLink="/dashboard">Dashboard</a>
+        <a routerLink="/heroes">Heroes</a>
+      </nav>
+    </div>
   </header>
   <main class="site-bd">
-    <router-outlet></router-outlet>
-    <app-messages></app-messages>
+    <div class="container">
+      <router-outlet></router-outlet>
+      <app-messages></app-messages>
+    </div>
   </main>
   <footer class="site-ft">Angular Sample Application</footer>
 </div>

@@ -36,3 +36,37 @@ nav a:hover {
 nav a.active {
   color: #039be5;
 }
+
+//
+// Site Layout
+// ------------------------------
+
+.site {
+  display: flex;
+  height: 100%; // needed for IE10
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.site-hd {
+  flex: 0 0 auto;
+}
+
+.site-bd {
+  flex: 1 0 auto;
+}
+
+//
+// Container - content wrapper
+// ------------------------------
+
+.container {
+  padding: 20px;
+}
+
+.appBar {
+  padding: 10px 20px;
+  border-bottom: 1px solid #15181b;
+  background-color: #24292e;
+  color: #efefef;
+}
